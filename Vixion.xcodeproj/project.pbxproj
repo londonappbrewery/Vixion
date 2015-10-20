@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633646ED1B8C6C3300FF45E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646EC1B8C6C3300FF45E2 /* AppDelegate.swift */; };
+		633646EF1B8C6C3300FF45E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646EE1B8C6C3300FF45E2 /* ViewController.swift */; };
+		633646F21B8C6C3300FF45E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633646F01B8C6C3300FF45E2 /* Main.storyboard */; };
+		633646F41B8C6C3300FF45E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633646F31B8C6C3300FF45E2 /* Images.xcassets */; };
+		633646F71B8C6C3300FF45E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633646F51B8C6C3300FF45E2 /* LaunchScreen.xib */; };
+		633647031B8C6C3400FF45E2 /* VixionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633647021B8C6C3400FF45E2 /* VixionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		633646FD1B8C6C3400FF45E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633646DF1B8C6C3300FF45E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633646E61B8C6C3300FF45E2;
+			remoteInfo = Vixion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		633646E71B8C6C3300FF45E2 /* Vixion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vixion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633646EB1B8C6C3300FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633646EC1B8C6C3300FF45E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		633646EE1B8C6C3300FF45E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		633646F11B8C6C3300FF45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633646F31B8C6C3300FF45E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		633646F61B8C6C3300FF45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		633646FC1B8C6C3400FF45E2 /* VixionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VixionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633647011B8C6C3400FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633647021B8C6C3400FF45E2 /* VixionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VixionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633646E41B8C6C3300FF45E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633646F91B8C6C3400FF45E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633646DE1B8C6C3300FF45E2 = {
+			isa = PBXGroup;
+			children = (
+				633646E91B8C6C3300FF45E2 /* Vixion */,
+				633646FF1B8C6C3400FF45E2 /* VixionTests */,
+				633646E81B8C6C3300FF45E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		633646E81B8C6C3300FF45E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633646E71B8C6C3300FF45E2 /* Vixion.app */,
+				633646FC1B8C6C3400FF45E2 /* VixionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633646E91B8C6C3300FF45E2 /* Vixion */ = {
+			isa = PBXGroup;
+			children = (
+				633646EC1B8C6C3300FF45E2 /* AppDelegate.swift */,
+				633646EE1B8C6C3300FF45E2 /* ViewController.swift */,
+				633646F01B8C6C3300FF45E2 /* Main.storyboard */,
+				633646F31B8C6C3300FF45E2 /* Images.xcassets */,
+				633646F51B8C6C3300FF45E2 /* LaunchScreen.xib */,
+				633646EA1B8C6C3300FF45E2 /* Supporting Files */,
+			);
+			path = Vixion;
+			sourceTree = "<group>";
+		};
+		633646EA1B8C6C3300FF45E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633646EB1B8C6C3300FF45E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		633646FF1B8C6C3400FF45E2 /* VixionTests */ = {
+			isa = PBXGroup;
+			children = (
+				633647021B8C6C3400FF45E2 /* VixionTests.swift */,
+				633647001B8C6C3400FF45E2 /* Supporting Files */,
+			);
+			path = VixionTests;
+			sourceTree = "<group>";
+		};
+		633647001B8C6C3400FF45E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633647011B8C6C3400FF45E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633646E61B8C6C3300FF45E2 /* Vixion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633647061B8C6C3400FF45E2 /* Build configuration list for PBXNativeTarget "Vixion" */;
+			buildPhases = (
+				633646E31B8C6C3300FF45E2 /* Sources */,
+				633646E41B8C6C3300FF45E2 /* Frameworks */,
+				633646E51B8C6C3300FF45E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vixion;
+			productName = Vixion;
+			productReference = 633646E71B8C6C3300FF45E2 /* Vixion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		633646FB1B8C6C3400FF45E2 /* VixionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633647091B8C6C3400FF45E2 /* Build configuration list for PBXNativeTarget "VixionTests" */;
+			buildPhases = (
+				633646F81B8C6C3400FF45E2 /* Sources */,
+				633646F91B8C6C3400FF45E2 /* Frameworks */,
+				633646FA1B8C6C3400FF45E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633646FE1B8C6C3400FF45E2 /* PBXTargetDependency */,
+			);
+			name = VixionTests;
+			productName = VixionTests;
+			productReference = 633646FC1B8C6C3400FF45E2 /* VixionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633646DF1B8C6C3300FF45E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "London App Brewery";
+				TargetAttributes = {
+					633646E61B8C6C3300FF45E2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					633646FB1B8C6C3400FF45E2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 633646E61B8C6C3300FF45E2;
+					};
+				};
+			};
+			buildConfigurationList = 633646E21B8C6C3300FF45E2 /* Build configuration list for PBXProject "Vixion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633646DE1B8C6C3300FF45E2;
+			productRefGroup = 633646E81B8C6C3300FF45E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633646E61B8C6C3300FF45E2 /* Vixion */,
+				633646FB1B8C6C3400FF45E2 /* VixionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633646E51B8C6C3300FF45E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633646F21B8C6C3300FF45E2 /* Main.storyboard in Resources */,
+				633646F71B8C6C3300FF45E2 /* LaunchScreen.xib in Resources */,
+				633646F41B8C6C3300FF45E2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633646FA1B8C6C3400FF45E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633646E31B8C6C3300FF45E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633646EF1B8C6C3300FF45E2 /* ViewController.swift in Sources */,
+				633646ED1B8C6C3300FF45E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633646F81B8C6C3400FF45E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633647031B8C6C3400FF45E2 /* VixionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		633646FE1B8C6C3400FF45E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633646E61B8C6C3300FF45E2 /* Vixion */;
+			targetProxy = 633646FD1B8C6C3400FF45E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633646F01B8C6C3300FF45E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633646F11B8C6C3300FF45E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633646F51B8C6C3300FF45E2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633646F61B8C6C3300FF45E2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633647041B8C6C3400FF45E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		633647051B8C6C3400FF45E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633647071B8C6C3400FF45E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vixion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		633647081B8C6C3400FF45E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vixion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6336470A1B8C6C3400FF45E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VixionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vixion.app/Vixion";
+			};
+			name = Debug;
+		};
+		6336470B1B8C6C3400FF45E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VixionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vixion.app/Vixion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633646E21B8C6C3300FF45E2 /* Build configuration list for PBXProject "Vixion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633647041B8C6C3400FF45E2 /* Debug */,
+				633647051B8C6C3400FF45E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633647061B8C6C3400FF45E2 /* Build configuration list for PBXNativeTarget "Vixion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633647071B8C6C3400FF45E2 /* Debug */,
+				633647081B8C6C3400FF45E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633647091B8C6C3400FF45E2 /* Build configuration list for PBXNativeTarget "VixionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6336470A1B8C6C3400FF45E2 /* Debug */,
+				6336470B1B8C6C3400FF45E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633646DF1B8C6C3300FF45E2 /* Project object */;
+}
